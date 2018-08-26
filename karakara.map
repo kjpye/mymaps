@@ -1,0 +1,38 @@
+# Generic for all sheets
+debug             = 5
+database          = maps
+scale             = 1:85000
+pagesize          = a4
+contour interval  = 20
+orientation       = landscape
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = vm_
+nodisplay         = vm_locality_name
+nodisplay         = vm_annotation
+grid spacing      = 2k
+graticule spacing = 2m
+longitude         = 143.15
+
+# Sheet 1 (bottom)
+output            = karakaraC.ps
+bleed top         = true
+bleed bottom      = false
+latitude          = -37
+draw              = 1
+
+# Sheet 1 (middle)
+output            = karakaraB.ps
+latitude          = -36.89
+bleed top         = true
+bleed bottom      = true
+draw              = 1
+
+# Sheet 3 (top)
+output            = karakaraA.ps
+bleed top         = false
+bleed bottom      = true
+latitude          = -36.74
+draw              = 1
+exit              = 1
