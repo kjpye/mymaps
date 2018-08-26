@@ -1,4 +1,4 @@
-= My maps =
+# My maps #
 
 This repository contains configuration files for the mkmap application from github.com://kjpye/maps.
 
