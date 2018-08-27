@@ -2,37 +2,41 @@
 debug             = 5
 database          = maps
 scale             = 1:85000
-pagesize          = a4
+pagesize          = a3
 contour interval  = 20
 orientation       = landscape
 nodisplay         = all
 display           = grid
 display           = graticule
 displayall        = vm_
-nodisplay         = vm_locality_name
+#nodisplay         = vm_locality_name
 nodisplay         = vm_annotation
 grid spacing      = 2k
 graticule spacing = 2m
-longitude         = 143.15
+longitude         = 146.05
 
+# Single sheet
+output            = warby-ovens.ps
+orientation = portrait
+bleed top = 1
+bleed right = 1
+latitude = -36.46
+#draw = 1
+#exit = 1
+
+scale             = 1:60000
+orientation       = landscape
 # Sheet 1 (bottom)
-output            = warby-ovensC.ps
+output            = warby-ovensB.ps
 bleed top         = 1
 bleed bottom      = 0
 latitude          = -36.46
 draw              = 1
 
-# Sheet 2 (middle)
-output            = warby-ovensB.ps
+# Sheet 2 (top)
+output            = warby-ovensA.ps
 latitude          = -36.35
 bleed top         = 1
 bleed bottom      = 1
-draw              = 1
-
-# Sheet 3 (top)
-output            = warby-ovensA.ps
-bleed top         = 0
-bleed bottom      = 1
-latitude          = -36.23
 draw              = 1
 exit              = 1
