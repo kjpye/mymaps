@@ -16,23 +16,23 @@ graticule spacing = 2m
 longitude         = 143.15
 
 # Sheet 1 (bottom)
-output            = karakaraC.ps
+output            = warby-ovensC.ps
 bleed top         = 1
 bleed bottom      = 0
-latitude          = -37
+latitude          = -36.46
 draw              = 1
 
 # Sheet 2 (middle)
-output            = karakaraB.ps
-latitude          = -36.89
+output            = warby-ovensB.ps
+latitude          = -36.35
 bleed top         = 1
 bleed bottom      = 1
 draw              = 1
 
 # Sheet 3 (top)
-output            = karakaraA.ps
+output            = warby-ovensA.ps
 bleed top         = 0
 bleed bottom      = 1
-latitude          = -36.74
+latitude          = -36.23
 draw              = 1
 exit              = 1
