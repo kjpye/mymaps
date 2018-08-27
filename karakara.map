@@ -11,28 +11,29 @@ display           = graticule
 displayall        = vm_
 nodisplay         = vm_locality_name
 nodisplay         = vm_annotation
+nodispay          = vm_tree_density
 grid spacing      = 2k
 graticule spacing = 2m
 longitude         = 143.15
 
 # Sheet 1 (bottom)
 output            = karakaraC.ps
-bleed top         = true
-bleed bottom      = false
+bleed top         = 1
+bleed bottom      = 0
 latitude          = -37
 draw              = 1
 
 # Sheet 1 (middle)
 output            = karakaraB.ps
 latitude          = -36.89
-bleed top         = true
-bleed bottom      = true
+bleed top         = 1
+bleed bottom      = 1
 draw              = 1
 
 # Sheet 3 (top)
 output            = karakaraA.ps
-bleed top         = false
-bleed bottom      = true
+bleed top         = 0
+bleed bottom      = 1
 latitude          = -36.74
 draw              = 1
 exit              = 1
