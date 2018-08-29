@@ -1,0 +1,23 @@
+# Generic for all sheets
+debug             = 5
+database          = maps
+scale             = 1:50000
+pagesize          = a3
+contour interval  = 20
+orientation       = landscape
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = vm_
+nodisplay         = vm_annotation
+grid spacing      = 2k
+graticule spacing = 2m
+title             = Port Fairy
+longitude         = 142.2
+
+# Single sheet
+output            = portfairy.ps
+orientation = landscape
+bleed top = 1
+bleed right = 1
+latitude = -38.4

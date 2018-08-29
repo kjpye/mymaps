@@ -1,0 +1,23 @@
+# Generic for all sheets
+debug             = 5
+database          = maps
+scale             = 1:85000
+pagesize          = a3
+contour interval  = 20
+orientation       = landscape
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = vm_
+nodisplay         = vm_annotation
+grid spacing      = 2k
+graticule spacing = 2m
+title             = Beechworth
+longitude         = 146.65
+
+# Single sheet
+output            = beechworth.ps
+orientation = portrait
+bleed top = 1
+bleed right = 1
+latitude = -36.57
