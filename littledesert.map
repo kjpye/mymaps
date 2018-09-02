@@ -1,0 +1,59 @@
+# Generic for all sheets
+debug             = 5
+database          = maps
+scale             = 1:100000
+pagesize          = a3
+contour interval  = 10
+orientation       = portrait
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = vm_
+nodisplay         = vm_locality_name
+nodisplay         = vm_annotation
+grid spacing      = 2k
+graticule spacing = 2m
+latitude          = -36.67
+
+# Sheet 1 (bottom)
+title             = Little Desert A
+output            = littledesertA.ps
+bleed top         = 1
+bleed bottom      = 0
+bleed right       = 1
+longitude         = 140.95
+draw              = 1
+#exit = 1
+
+# Sheet 2 (middle)
+title             = Little Desert B
+output            = littledesertB.ps
+longitude         = 141.23
+bleed top         = 1
+bleed bottom      = 0
+bleed left        = 1
+bleed right       = 1
+draw              = 1
+#exit = 1
+
+# Sheet 3 (top)
+title             = Little Desert C
+output            = littledesertC.ps
+bleed top         = 1
+bleed bottom      = 0
+bleed left        = 1
+bleed right       = 1
+longitude         = 141.55
+draw              = 1
+#exit              = 1
+
+# Sheet 4
+title             = Little Desert D
+output            = littledesertD.ps
+bleed top         = 1
+bleed bottom      = 0
+bleed left        = 1
+bleed right       = 0
+longitude         = 141.81
+draw              = 1
+exit              = 1
