@@ -28,7 +28,7 @@ draw              = 1
 # Sheet 2 (middle)
 title             = Little Desert B
 output            = littledesertB.ps
-longitude         = 141.23
+longitude         = 141.22
 bleed top         = 1
 bleed bottom      = 0
 bleed left        = 1
@@ -43,7 +43,7 @@ bleed top         = 1
 bleed bottom      = 0
 bleed left        = 1
 bleed right       = 1
-longitude         = 141.55
+longitude         = 141.53
 draw              = 1
 #exit              = 1
 
