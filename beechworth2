@@ -1,0 +1,60 @@
+# Generic for all sheets
+debug             = 5
+database          = maps
+scale             = 1:45000
+pagesize          = a3
+contour interval  = 10
+orientation       = portrait
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = vm_
+nodisplay         = vm_annotation
+grid spacing      = 2k
+graticule spacing = 2m
+
+# Four sheet lower left
+output            = beechworthC.ps
+bleed top         = 1
+bleed bottom      = 0
+bleed left        = 0
+bleed right       = 1
+longitude         = 146.65
+latitude          = -36.57
+title             = Beechworth
+#draw              = 1
+
+# Four sheet lower right
+output            = beechworthD.ps
+bleed top         = 1
+bleed bottom      = 0
+bleed left        = 1
+bleed right       = 0
+longitude         = 146.77
+latitude          = -36.57
+title             =
+#draw              = 1
+#exit = 1
+
+# Four sheet upper left
+output            = beechworthA.ps
+bleed top         = 0
+bleed bottom      = 1
+bleed left        = 0
+bleed right       = 1
+longitude         = 146.65
+latitude          = -36.43
+title             =
+#draw              = 1
+
+# Four sheet upper right
+output            = beechworthB.ps
+bleed top         = 0
+bleed bottom      = 1
+bleed left        = 1
+bleed right       = 0
+longitude         = 146.77
+latitude          = -36.43
+title             =
+draw              = 1
+exit = 1
