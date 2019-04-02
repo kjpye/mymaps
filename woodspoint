@@ -1,0 +1,23 @@
+# Generic for all sheets
+debug             = 5
+database          = maps
+scale             = 1:85000
+pagesize          = a3
+contour interval  = 40
+orientation       = landscape
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = vm_
+nodisplay         = vm_annotation
+grid spacing      = 2k
+graticule spacing = 2m
+title             = Woods Point
+longitude         = 146.050
+
+# Single sheet
+output            = woodspoint.ps
+orientation = landscape
+bleed top = 1
+bleed right = 1
+latitude = -37.613

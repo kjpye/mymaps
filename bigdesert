@@ -1,0 +1,123 @@
+# Generic for all sheets
+debug             = 5
+database          = maps
+scale             = 1:100000
+pagesize          = a3
+contour interval  = 10
+orientation       = landscape
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = vm_
+nodisplay         = vm_locality_name
+nodisplay         = vm_annotation
+grid spacing      = 2k
+graticule spacing = 2m
+
+# Left hand side sheets
+longitude         = 140.95
+
+# Sheet 1 (lower left)
+title             = Big Desert A
+output            = bigdesertA.ps
+bleed top         = 1
+bleed bottom      = 0
+bleed left        = 0
+bleed right       = 1
+latitude          = -36
+#draw              = 1
+#exit              = 1
+
+# Sheet 2
+title             = Big Desert B
+output            = bigdesertB.ps
+bleed top         = 1
+bleed bottom      = 1
+bleed left        = 0
+bleed right       = 1
+latitude          = -35.8
+#draw              = 1
+#exit              = 1
+
+# Sheet 3
+title             = Big Desert C
+output            = bigdesertC.ps
+bleed top         = 1
+bleed bottom      = 1
+bleed left        = 0
+bleed right       = 1
+latitude          = -35.55
+#draw              = 1
+#exit              = 1
+
+# Second column sheets
+longitude         = 141.34
+
+# Sheet 4
+title             = Big Desert D
+output            = bigdesertD.ps
+bleed top         = 1
+bleed bottom      = 0
+bleed left        = 1
+bleed right       = 1
+latitude          = -36
+#draw              = 1
+#exit              = 1
+
+# Sheet 2
+title             = Big Desert E
+output            = bigdesertE.ps
+bleed top         = 1
+bleed bottom      = 1
+bleed left        = 1
+bleed right       = 1
+latitude          = -35.8
+draw              = 1
+#exit              = 1
+
+# Sheet 3
+title             = Big Desert F
+output            = bigdesertF.ps
+bleed top         = 1
+bleed bottom      = 1
+bleed left        = 1
+bleed right       = 1
+latitude          = -35.55
+draw              = 1
+#exit              = 1
+
+# Third column sheets
+longitude         = 141.8
+
+# Sheet 4
+title             = Big Desert G
+output            = bigdesertG.ps
+bleed top         = 1
+bleed bottom      = 0
+bleed left        = 1
+bleed right       = 1
+latitude          = -36
+draw              = 1
+#exit              = 1
+
+# Sheet 2
+title             = Big Desert H
+output            = bigdesertH.ps
+bleed top         = 1
+bleed bottom      = 1
+bleed left        = 1
+bleed right       = 1
+latitude          = -35.8
+draw              = 1
+#exit              = 1
+
+# Sheet 3
+title             = Big Desert I
+output            = bigdesertI.ps
+bleed top         = 1
+bleed bottom      = 1
+bleed left        = 1
+bleed right       = 1
+latitude          = -35.55
+draw              = 1
+exit              = 1
