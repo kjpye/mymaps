@@ -13,6 +13,7 @@ nodisplay         = vm_annotation
 grid spacing      = 2k
 graticule spacing = 2m
 title             = Woods Point
+roadnames         = woodspoint.roads
 longitude         = 146.050
 
 # Single sheet
