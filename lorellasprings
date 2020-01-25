@@ -1,0 +1,20 @@
+# Generic for all sheets
+# -15.83 135.5
+debug             = 5
+database          = map250k
+scale             = 1:250000
+pagesize          = a3
+contour interval  = 1
+orientation       = landscape
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = ga_
+grid spacing      = 10k
+graticule spacing = 15m
+title             = Lorella Springs
+output            = lorellasprings.ps
+longitude         = 135.5
+bleed top = 1
+bleed right = 1
+latitude = -15.83

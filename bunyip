@@ -1,0 +1,23 @@
+#debug             = 5
+database           = fred
+papersize          = a4
+orientation        = portrait
+scale              = 1:50000
+title              = Bunyip State Forest
+output             = bunyip.ps
+bleed top          = 1
+bleed right        = 1
+#grid spacing      = 10k
+#graticule spacing = 15m
+
+lat                = -38
+long               = 145.55
+nodisplay          = all
+displayall         = vm
+display            = userannotation
+display            = grid
+display            = graticule
+
+annotation         = 145.584097, -37.898010, 0,  10, Kurth Kiln Scout Loop Camping Ground
+annotation         = 145.576439, -37.899905, 0, -10, Kurth Kiln Camping Ground
+annotation         = 145.594801, -37.984473, 0,  10, Mortimer Camping Ground
