@@ -1,5 +1,5 @@
 # Generic for all sheets
-debug             = 5
+debug             = 0
 database          = maps
 scale             = 1:50000
 pagesize          = a3

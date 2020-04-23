@@ -1,0 +1,24 @@
+# Generic for all sheets
+debug             = 20
+database          = maps
+scale             = 1:25000
+pagesize          = a4
+contour interval  = 20
+orientation       = portrait
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = vm_
+#display           = vm_foi_point
+nodisplay         = vm_annotation
+display           = public_toilets
+grid spacing      = 1k
+graticule spacing = 1m
+title             = Macleod
+longitude         = 145.03 
+
+# Single sheet
+output            = macleod.ps
+bleed top         = 1
+bleed right       = 1
+latitude          = -37.74

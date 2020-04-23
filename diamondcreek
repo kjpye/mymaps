@@ -1,0 +1,51 @@
+# Generic for all sheets
+debug             = 1
+database          = maps
+scale             = 1:25000
+pagesize          = a2
+#contour interval  = 20
+orientation       = landscape
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = vm_
+nodisplay         = vm_annotation
+grid spacing      = 1k
+graticule spacing = 1m
+title             = Diamond Creek
+longitude         = 145.1
+latitude          = -37.68
+output            = diamondcreek.ps
+bleed top         = 1
+bleed right       = 1
+draw              = 1
+exit = 1
+
+longitude         = 145.165
+latitude          = -37.68
+bleed top         = 1
+bleed right       = 0
+bleed bottom      = 0
+bleed left        = 1
+output            = diamondcreekB.ps
+draw              = 1
+
+longitude         = 145.1
+latitude          = -37.655
+bleed top         = 0
+bleed right       = 1
+bleed bottom      = 1
+bleed left        = 0
+output            = diamondcreekC.ps
+draw              = 1
+
+longitude         = 145.165
+latitude          = -37.655
+bleed top         = 0
+bleed right       = 0
+bleed bottom      = 1
+bleed left        = 1
+output            = diamondcreekD.ps
+draw              = 1
+
+exit              = 1

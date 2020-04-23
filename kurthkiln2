@@ -1,29 +1,24 @@
-debug              = 0
-database           = maps
+debug              = 1
+database           = fred
 papersize          = a4
 orientation        = landscape
-scale              = 1:30000
+scale              = 1:250000
 title              = Kurth Kiln State Park
-output             = kurthkiln.ps
+output             = kurthkiln2.ps
 bleed top          = 1
 bleed right        = 1
-#grid spacing      = 10k
-#graticule spacing = 15m
+grid spacing       = 10k
+graticule spacing  = 15m
 
 lat                = -37.93
 long               = 145.55
 nodisplay          = all
-displayall         = vm
-#nodisplay          = vm_tree_density
-#nodisplay          = vm_tree_density_scattered
-#nodisplay          = vm_tree_density_medium
-#nodisplay          = vm_tree_density_dense
+displayall         = ga_
 display            = kjp-annotations
 display            = publictoilets
 display            = userannotation
 display            = grid
 display            = graticule
-display            = ga_annotation
 
 annotation         = 145.584097, -37.898010, 0,   0, Kurth Kiln\nScout Loop\nCamping Ground
 annotation         = 145.576439, -37.899905, 10, -10, Kurth Kiln\nMagazine Loop\nCamping Ground
