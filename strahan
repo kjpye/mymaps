@@ -1,27 +1,26 @@
 # Generic for all sheets
-debug             = 20
+debug             = 0
 database          = maps
-scale             = 1:25000
+scale             = 1:50000
 pagesize          = a4
 contour interval  = 20
 orientation       = portrait
 nodisplay         = all
 display           = grid
 display           = graticule
-displayall        = vm_
-display           = vm_foi_point
-nodisplay         = vm_annotation
-nodisplay         = vm_tr_road
 display           = public_toilets
+displayall        = tas_
+nodisplay         = tas_coastline
+nodisplay         = tas_hydarea
 grid spacing      = 1k
 graticule spacing = 1m
-title             = Macleod
-longitude         = 145.03 
+title             = Strahan
+longitude         = 145.30
 
 # Single sheet
-output            = macleod.ps
+output            = strahan.ps
 bleed top         = 1
-bleed bottom      = 1
-bleed left        = 1
+#bleed bottom      = 1
+#bleed left        = 1
 bleed right       = 1
-latitude          = -37.75
+latitude          = -42.08

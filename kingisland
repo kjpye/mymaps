@@ -1,0 +1,24 @@
+# Generic for all sheets
+debug             = 10
+database          = maps
+scale             = 1:100000
+pagesize          = a1
+contour interval  = 10
+orientation       = portrait
+nodisplay         = all
+display           = grid
+display           = graticule
+display           = public_toilets
+displayall        = tas_
+grid spacing      = 1k
+graticule spacing = 1m
+title             = King Island
+
+# Single sheet
+output            = kingisland.ps
+bleed top         = 1
+#bleed bottom      = 1
+#bleed left        = 1
+bleed right       = 1
+longitude         = 143.79
+latitude          = -40.17

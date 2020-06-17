@@ -13,42 +13,40 @@ nodisplay         = vm_locality_name
 nodisplay         = vm_annotation
 grid spacing      = 2k
 graticule spacing = 2m
-include           = annotations.20200611
-
 
 # Left hand side sheets
 longitude         = 140.95
 
 # Sheet 1 (lower left)
-title             = Big Desert A
-output            = bigdesertA.ps
+title             = Murray Sunset NP A
+output            = murraysunsetA.ps
 bleed top         = 1
 bleed bottom      = 0
 bleed left        = 0
 bleed right       = 1
-latitude          = -36
-draw              = 1
+latitude          = -35.1
+#draw              = 1
 #exit              = 1
 
 # Sheet 2
-title             = Big Desert B
-output            = bigdesertB.ps
+title             = Murray Sunset NP B
+output            = murraysunsetB.ps
 bleed top         = 1
 bleed bottom      = 1
 bleed left        = 0
 bleed right       = 1
-latitude          = -35.8
+latitude          = -34.85
 draw              = 1
 #exit              = 1
 
 # Sheet 3
-title             = Big Desert C
-output            = bigdesertC.ps
+title             = Murray Sunset NP C
+output            = murraysunsetC.ps
 bleed top         = 1
 bleed bottom      = 1
 bleed left        = 0
 bleed right       = 1
-latitude          = -35.55
+latitude          = -34.6
 draw              = 1
 #exit              = 1
 
@@ -56,35 +54,35 @@ draw              = 1
 longitude         = 141.34
 
 # Sheet 4
-title             = Big Desert D
-output            = bigdesertD.ps
+title             = Murray Sunset NP D
+output            = murraysunsetD.ps
 bleed top         = 1
 bleed bottom      = 0
 bleed left        = 1
 bleed right       = 1
-latitude          = -36
+latitude          = -35.1
 draw              = 1
-exit              = 1
+#exit              = 1
 
 # Sheet 2
-title             = Big Desert E
-output            = bigdesertE.ps
+title             = Murray Sunset NP E
+output            = murraysunsetE.ps
 bleed top         = 1
 bleed bottom      = 1
 bleed left        = 1
 bleed right       = 1
-latitude          = -35.8
+latitude          = -34.85
 draw              = 1
 #exit              = 1
 
 # Sheet 3
-title             = Big Desert F
-output            = bigdesertF.ps
+title             = Murray Sunset NP F
+output            = murraysunsetF.ps
 bleed top         = 1
 bleed bottom      = 1
 bleed left        = 1
 bleed right       = 1
-latitude          = -35.55
+latitude          = -34.6
 draw              = 1
 #exit              = 1
 
@@ -92,34 +90,34 @@ draw              = 1
 longitude         = 141.8
 
 # Sheet 4
-title             = Big Desert G
-output            = bigdesertG.ps
+title             = Murray Sunset NP G
+output            = murraysunsetG.ps
 bleed top         = 1
 bleed bottom      = 0
 bleed left        = 1
 bleed right       = 1
-latitude          = -36
+latitude          = -35.1
 draw              = 1
 #exit              = 1
 
 # Sheet 2
-title             = Big Desert H
-output            = bigdesertH.ps
+title             = Murray Sunset NP H
+output            = murraysunsetH.ps
 bleed top         = 1
 bleed bottom      = 1
 bleed left        = 1
 bleed right       = 1
-latitude          = -35.8
+latitude          = -34.85
 draw              = 1
 #exit              = 1
 
 # Sheet 3
-title             = Big Desert I
-output            = bigdesertI.ps
+title             = Murray Sunset NP I
+output            = murraysunsetI.ps
 bleed top         = 1
 bleed bottom      = 1
 bleed left        = 1
 bleed right       = 1
-latitude          = -35.55
+latitude          = -34.6
 draw              = 1
 exit              = 1

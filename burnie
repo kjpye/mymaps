@@ -1,0 +1,24 @@
+# Generic for all sheets
+debug             = 10
+database          = maps
+scale             = 1:30000
+pagesize          = a4
+contour interval  = 10
+orientation       = portrait
+nodisplay         = all
+display           = grid
+display           = graticule
+display           = public_toilets
+displayall        = tas_
+grid spacing      = 1k
+graticule spacing = 1m
+title             = Burnie
+longitude         = 145.87 
+
+# Single sheet
+output            = burnie.ps
+bleed top         = 1
+#bleed bottom      = 1
+#bleed left        = 1
+bleed right       = 1
+latitude          = -41.1

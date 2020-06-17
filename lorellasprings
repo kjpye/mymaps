@@ -1,7 +1,7 @@
 # Generic for all sheets
 # -15.83 135.5
 debug             = 5
-database          = map250k
+database          = maps
 scale             = 1:250000
 pagesize          = a3
 contour interval  = 1
@@ -10,6 +10,7 @@ nodisplay         = all
 display           = grid
 display           = graticule
 displayall        = ga_
+nodisplay         = ga_railwaybridgepoints
 grid spacing      = 10k
 graticule spacing = 15m
 title             = Lorella Springs

@@ -1,0 +1,24 @@
+# Generic for all sheets
+debug             = 10
+database          = maps
+scale             = 1:30000
+pagesize          = a4
+contour interval  = 10
+orientation       = portrait
+nodisplay         = all
+display           = grid
+display           = graticule
+display           = public_toilets
+displayall        = sa_
+grid spacing      = 1k
+graticule spacing = 1m
+title             = Berri
+longitude         = 140.57
+
+# Single sheet
+output            = berri.ps
+bleed top         = 1
+#bleed bottom      = 1
+#bleed left        = 1
+bleed right       = 1
+latitude          = -34.3
