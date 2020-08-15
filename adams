@@ -1,25 +1,20 @@
 # Generic for all sheets
-debug             = 0
+debug             = 5
 database          = maps
-scale             = 1:50000
+scale             = 1:7500
 pagesize          = a3
-contour interval  = 20
+contour interval  = 1
 orientation       = landscape
 nodisplay         = all
 display           = grid
 display           = graticule
 displayall        = vm_
 nodisplay         = vm_annotation
-nodisplay         = vm_annotation_text
-nodisplay         = vm_properties
 grid spacing      = 1k
 graticule spacing = 1m
-title             = Port Fairy
-longitude         = 142.2
-
-# Single sheet
-output            = portfairy.ps
-orientation       = landscape
+title             = 43 York Lane
+output            = adams.ps
 bleed top         = 1
 bleed right       = 1
-latitude          = -38.4
+longitude         = 146.67
+latitude          = -36.41

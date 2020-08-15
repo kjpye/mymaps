@@ -11,8 +11,10 @@ display           = graticule
 displayall        = vm_
 nodisplay         = vm_locality_name
 nodisplay         = vm_annotation
+display           = userannotation
 grid spacing      = 2k
 graticule spacing = 2m
+file              = annotations.20200611
 
 # Left hand side sheets
 longitude         = 140.95
@@ -36,7 +38,7 @@ bleed bottom      = 1
 bleed left        = 0
 bleed right       = 1
 latitude          = -34.85
-draw              = 1
+#draw              = 1
 #exit              = 1
 
 # Sheet 3
@@ -47,7 +49,7 @@ bleed bottom      = 1
 bleed left        = 0
 bleed right       = 1
 latitude          = -34.6
-draw              = 1
+#draw              = 1
 #exit              = 1
 
 # Second column sheets
@@ -62,7 +64,7 @@ bleed left        = 1
 bleed right       = 1
 latitude          = -35.1
 draw              = 1
-#exit              = 1
+exit              = 1
 
 # Sheet 2
 title             = Murray Sunset NP E
