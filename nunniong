@@ -1,26 +1,25 @@
 # Generic for all sheets
-debug             = 0
+debug             = 5
 database          = maps
-scale             = 1:50000
+scale             = 1:30000
 pagesize          = a3
 contour interval  = 20
-orientation       = landscape
+orientation       = portrait
 nodisplay         = all
 display           = grid
 display           = graticule
 displayall        = vm_
-display           = public_toilets
 nodisplay         = vm_annotation
 nodisplay         = vm_annotation_text
 nodisplay         = vm_properties
 grid spacing      = 1k
 graticule spacing = 1m
-title             = Port Fairy
-longitude         = 142.2
+title             = Nunniong
+longitude         = 147.925
+roadnames         = 1
 
 # Single sheet
-output            = portfairy.ps
-orientation       = landscape
-bleed top         = 1
-bleed right       = 1
-latitude          = -38.4
+output            = nunniong.ps
+bleed top = 1
+bleed right = 1
+latitude = -37.15

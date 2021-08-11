@@ -63,8 +63,8 @@ bleed bottom      = 0
 bleed left        = 1
 bleed right       = 1
 latitude          = -35.1
-draw              = 1
-exit              = 1
+#draw              = 1
+#exit              = 1
 
 # Sheet 2
 title             = Murray Sunset NP E
@@ -74,7 +74,7 @@ bleed bottom      = 1
 bleed left        = 1
 bleed right       = 1
 latitude          = -34.85
-draw              = 1
+#draw              = 1
 #exit              = 1
 
 # Sheet 3
@@ -85,7 +85,7 @@ bleed bottom      = 1
 bleed left        = 1
 bleed right       = 1
 latitude          = -34.6
-draw              = 1
+#draw              = 1
 #exit              = 1
 
 # Third column sheets
@@ -99,7 +99,7 @@ bleed bottom      = 0
 bleed left        = 1
 bleed right       = 1
 latitude          = -35.1
-draw              = 1
+#draw              = 1
 #exit              = 1
 
 # Sheet 2

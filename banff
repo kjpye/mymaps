@@ -1,0 +1,23 @@
+# Generic for all sheets
+debug             = 10
+database          = maps
+scale             = 1:25000
+pagesize          = a3
+contour interval  = 20
+orientation       = landscape
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = ca_
+grid spacing      = 1k
+graticule spacing = 1m
+title             = Banff
+longitude         = -115.6
+
+# Single sheet
+output            = banff.ps
+bleed top         = 1
+bleed bottom      = 0
+bleed left        = 0
+bleed right       = 1
+latitude          = 51.15
