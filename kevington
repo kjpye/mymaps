@@ -1,29 +1,29 @@
 # Generic for all sheets
-debug             = 1
+debug             = 0
 database          = maps
-scale             = 1:30000
-pagesize          = a3
+scale             = 1:25000
+pagesize          = a4
 contour interval  = 20
-orientation       = landscape
+orientation       = portrait
 nodisplay         = all
 display           = grid
 display           = graticule
 displayall        = vm_
 display           = vm_foi_point
-nodisplay         = vm_properties
 nodisplay         = vm_annotation
+nodisplay         = vm_tr_road
+nodisplay         = vm_properties
 nodisplay         = vm_annotation_text
-nodisplay         = vm_fr_framework_area_polygon
 display           = public_toilets
 grid spacing      = 1k
 graticule spacing = 1m
-title             = Macleod
-longitude         = 145.03 
+title             = Kevington
+latitude          = -32.327
+longitude         = 146.098
 
 # Single sheet
-output            = macleod3.ps
+output            = kevington.ps
 bleed top         = 1
-bleed bottom      = 0
+bleed bottom      = 1
 bleed left        = 0
-bleed right       = 1
-latitude          = -37.75
+bleed right       = 0

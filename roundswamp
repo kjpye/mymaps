@@ -1,7 +1,7 @@
 # Generic for all sheets
 debug             = 1
 database          = maps
-scale             = 1:30000
+scale             = 1:50000
 pagesize          = a3
 contour interval  = 20
 orientation       = landscape
@@ -17,13 +17,13 @@ nodisplay         = vm_fr_framework_area_polygon
 display           = public_toilets
 grid spacing      = 1k
 graticule spacing = 1m
-title             = Macleod
-longitude         = 145.03 
+title             = Round Swamp
 
 # Single sheet
-output            = macleod3.ps
+output            = roundswamp.ps
 bleed top         = 1
 bleed bottom      = 0
 bleed left        = 0
 bleed right       = 1
-latitude          = -37.75
+longitude         = 141.7
+latitude          = -35.8

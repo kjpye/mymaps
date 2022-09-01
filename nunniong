@@ -12,6 +12,7 @@ displayall        = vm_
 nodisplay         = vm_annotation
 nodisplay         = vm_annotation_text
 nodisplay         = vm_properties
+nodisplay         = vm_fr_framework_area_polygon
 grid spacing      = 1k
 graticule spacing = 1m
 title             = Nunniong

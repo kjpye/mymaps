@@ -1,7 +1,7 @@
 # Generic for all sheets
-debug             = 1
+debug             = 5
 database          = maps
-scale             = 1:30000
+scale             = 1:50000
 pagesize          = a3
 contour interval  = 20
 orientation       = landscape
@@ -9,21 +9,17 @@ nodisplay         = all
 display           = grid
 display           = graticule
 displayall        = vm_
-display           = vm_foi_point
-nodisplay         = vm_properties
 nodisplay         = vm_annotation
 nodisplay         = vm_annotation_text
+nodisplay         = vm_properties
 nodisplay         = vm_fr_framework_area_polygon
-display           = public_toilets
+display           = publictoilets
 grid spacing      = 1k
 graticule spacing = 1m
-title             = Macleod
-longitude         = 145.03 
-
-# Single sheet
-output            = macleod3.ps
+title             = Nunniong
+longitude         = 147.86
+latitude          = -37.2
+roadnames         = 1
+output            = nunniong2.ps
 bleed top         = 1
-bleed bottom      = 0
-bleed left        = 0
 bleed right       = 1
-latitude          = -37.75

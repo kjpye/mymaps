@@ -1,0 +1,31 @@
+# Generic for all sheets
+debug             = 5
+database          = maps
+scale             = 1:100000
+pagesize          = a3
+contour interval  = 10
+orientation       = landscape
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = vm_
+nodisplay         = vm_locality_name
+nodisplay         = vm_annotation
+nodisplay         = vm_annotation_text
+display           = userannotation
+grid spacing      = 2k
+graticule spacing = 2m
+file              = annotations.20200611
+
+
+# Left hand side sheets
+longitude         = 141
+
+# Sheet 3
+title             = Big Desert NW
+output            = bigdesert2.ps
+bleed top         = 1
+bleed bottom      = 1
+bleed left        = 0
+bleed right       = 1
+latitude          = -35.55
