@@ -1,29 +1,29 @@
 # Generic for all sheets
 debug             = 0
 database          = maps
-scale             = 1:25000
-pagesize          = a4
+scale             = 1:50000
+pagesize          = a3
 contour interval  = 20
-orientation       = portrait
+orientation       = landscape
 nodisplay         = all
 display           = grid
 display           = graticule
 displayall        = vm_
 display           = vm_foi_point
 nodisplay         = vm_annotation
-nodisplay         = vm_tr_road
 nodisplay         = vm_properties
 nodisplay         = vm_annotation_text
+nodisplay         = vm_tr_road_infrastructure
 display           = public_toilets
 grid spacing      = 1k
 graticule spacing = 1m
 title             = Kevington
-latitude          = -32.327
-longitude         = 146.098
+latitude          = -37.45
+longitude         = 146.1
 
 # Single sheet
 output            = kevington.ps
 bleed top         = 1
-bleed bottom      = 1
+bleed bottom      = 0
 bleed left        = 0
-bleed right       = 0
+bleed right       = 1

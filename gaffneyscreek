@@ -1,5 +1,5 @@
 # Generic for all sheets
-debug             = 0
+debug             = 1
 database          = maps
 scale             = 1:50000
 pagesize          = a3
@@ -17,12 +17,12 @@ nodisplay         = vm_tr_road_infrastructure
 display           = public_toilets
 grid spacing      = 1k
 graticule spacing = 1m
-title             = WoodsPoint
-latitude          = -37.65
+title             = Gaffneys Creek
+latitude          = -37.55
 longitude         = 146.1
 
 # Single sheet
-output            = woodspoint.ps
+output            = gaffneyscreek.ps
 bleed top         = 1
 bleed bottom      = 0
 bleed left        = 0

@@ -1,0 +1,24 @@
+# Generic for all sheets
+debug             = 10
+database          = maps
+scale             = 1:30000
+pagesize          = a3
+contour interval  = 10
+orientation       = landscape
+nodisplay         = all
+display           = grid
+display           = graticule
+displayall        = uk_
+nodisplay         = uk_electricitytransmissionline
+#nodisplay         = uk_functionalsite
+#nodisplay         = uk_woodland
+grid spacing      = 1k
+graticule spacing = 1m
+title             = St Neot
+latitude          = 50.45
+#latitude          = 52.45
+longitude         = -4.56
+#longitude = 0.12
+output            = stneot.ps
+bleed top         = 1
+bleed right       = 1
